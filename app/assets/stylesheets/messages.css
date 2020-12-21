@@ -1,6 +1,7 @@
 .wrapper {
   display: flex;
 }
+
 .side-bar {
   width: 300px;
   background-color: #253141;
@@ -9,16 +10,17 @@
 .side-header{
   height: 100px;
   padding: 0 20px;
+  background-color: #253141;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.user-name{
+.user-name a{
   color: #fafafa;
   font-size: 16px;
   text-decoration: none;
 }
-.start-chat{
+.create-room a{
   color: deepskyblue;
   font-size: 10px;
   text-decoration: none;
@@ -29,14 +31,16 @@
   height: calc(100vh - 100px);
   background-color: #2F3E51;
   padding: 0 20px;
+  overflow: scroll;
+
 }
-.chat-room{
+.chat-rooms{
+  padding: 20px 0 40px;
+} 
+.room a { 
   color: white;
-  padding: 20px 0 40px 0;
-  display: block;
   text-decoration: none;
 }
-
 .main-chat {
   width: calc(100vw - 300px);
   background-color: #FFFFFF;
@@ -48,7 +52,7 @@
 .main-contents{
   height:  calc(100vh - 190px);
   background-color: #FAFAFA;
-  padding: 40px 40px 0 40px;
+  padding: 46px 40px 0;
 }
 .form{
   height: 90px;
