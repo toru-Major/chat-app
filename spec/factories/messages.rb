@@ -9,4 +9,3 @@ FactoryBot.define do
     end
   end
 end
-# bundle exec rspec spec/models/message_spec.rb
